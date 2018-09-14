@@ -100,5 +100,7 @@ public class FunKwadratowa {
 		}
         return firstSlc / secondSlc;
     }
-
+	public static int subtraction(int firstSlc, int secondSlc) {
+        return firstSlc - secondSlc;
+	}
 }
