@@ -103,4 +103,7 @@ public class FunKwadratowa {
 	public static int subtraction(int firstSlc, int secondSlc) {
         return firstSlc - secondSlc;
 	}
+	public static int addition(int firstSlc, int secondSlc) {
+        return firstSlc + secondSlc;
+	}
 }
