@@ -106,4 +106,7 @@ public class FunKwadratowa {
 	public static int addition(int firstSlc, int secondSlc) {
         return firstSlc + secondSlc;
 	}
+	public static int powering(int a, int b) {
+		return a^b;
+	}
 }
