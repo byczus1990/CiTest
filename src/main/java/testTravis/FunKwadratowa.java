@@ -106,7 +106,9 @@ public class FunKwadratowa {
 	public static int addition(int firstSlc, int secondSlc) {
         return firstSlc + secondSlc;
 	}
-	public static int powering(int a, int b) {
-		return a^b;
+	public static double powering(int a, int b) {
+		int c ;
+		c = (int) Math.pow(a,b);
+		return c;
 	}
 }

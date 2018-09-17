@@ -6,11 +6,12 @@ import org.junit.Test;
 
 public class PoweringTest {
 
+	
 	@Test
 	public void poweringTest() {
-		int result = FunKwadratowa.powering(2,2);
+		int result = (int) FunKwadratowa.powering(2,2);
         int expectedResult = 4;
         assertEquals(result, expectedResult);
-
 	}
+
 }
